@@ -54,7 +54,7 @@ FoodLens supports multiple model options, such as:
 
 | Model                     | Device RAM Size Required | Size     |
 | ------------------------- | ------------ | -------- |
-| `gemma-3-1b-it-qat-4bit`  | 2GB+         | \~0.75GB |
+| `gemma-3-1b-it-qat-4bit`  | 6GB+ (folder older devices)       | \~0.75GB |
 | `gemma-3n-E2B-it-lm-4bit` | 8GB+         | \~2.5GB  |
 
 Only compatible models are shown on devices, based on:
