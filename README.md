@@ -3,8 +3,15 @@
 **Scan food labels. Get personalized safety insights. All on-device.**
 
 > **Personalized food safety powered by on-device AI.**
-
 ---
+
+
+## Important Links
+
+- [Youtube](https://youtu.be/z1hHl7igdvk)
+- [Kaggle](https://www.kaggle.com/competitions/google-gemma-3n-hackathon/writeups/food-len-ios-app)
+
+
 
 ## Overview
 
@@ -44,10 +51,10 @@
 
 FoodLens supports multiple model options, such as:
 
-| Model                     | RAM Required | Size     |
+| Model                     | Device RAM Size Required | Size     |
 | ------------------------- | ------------ | -------- |
 | `gemma-3-1b-it-qat-4bit`  | 2GB+         | \~0.75GB |
-| `gemma-3n-E2B-it-lm-4bit` | 7GB+         | \~2.5GB  |
+| `gemma-3n-E2B-it-lm-4bit` | 8GB+         | \~2.5GB  |
 
 Only compatible models are shown on devices, based on:
 
@@ -98,6 +105,8 @@ This prevents crashes and memory leaks common in GPU-backed model execution.
 ## Example Workflow
 
 1. Launch the app and configure your dietary profile (allergies, preferences).
-2. Snap one or more photos of ingredient lists using the built-in camera.
-3. The app extracts text and streams it to the selected LLM.
-4. You get a personalized food safety verdict with explanations.
+2. In first time of launch, open the ModelSettingView tapping the gear button at top right corner
+3. After downlaoded complete tap the green 'load the model' button.
+4. Snap one or more photos of ingredient lists using the built-in camera.
+5. The app extracts text and streams it to the selected LLM.
+6. You get a personalized food safety verdict with explanations.
