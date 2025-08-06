@@ -48,7 +48,7 @@
 
 ---
 
-## 🛠️ Model Management
+## Model Management
 
 FoodLens supports multiple model options, such as:
 
@@ -70,7 +70,7 @@ Models are downloaded using MLX APIs, cached locally, and only loaded into memor
 
 ---
 
-## 💡 Prompt Format
+## Prompt Format
 
 ```text
 You are FoodLens AI, a dietary safety assistant. Analyze the ingredients below based on the user's dietary profile.
