@@ -1,7 +1,3 @@
-Here’s a clean and professional **GitHub README** for your **FoodLens** project:
-
----
-
 # **FoodLens**
 
 **Scan food labels. Get personalized safety insights. All on-device.**
